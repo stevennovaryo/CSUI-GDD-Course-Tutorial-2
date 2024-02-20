@@ -15,8 +15,17 @@ _global_script_class_icons={
 [application]
 
 config/name="Tutorial 2"
-run/main_scene="res://scenes/MainLevel.tscn"
+run/main_scene="res://scenes/MainLevel1/MainLevel.tscn"
 config/icon="res://assets/icon.png"
+
+[display]
+
+window/stretch/mode="2d"
+window/stretch/aspect="keep"
+
+[global]
+
+view=false
 
 [input]
 
@@ -38,6 +47,21 @@ move_left={
 move_down={
 "deadzone": 0.5,
 "events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":0,"physical_scancode":16777234,"unicode":0,"echo":false,"script":null)
+ ]
+}
+ui_z={
+"deadzone": 0.5,
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":0,"physical_scancode":90,"unicode":0,"echo":false,"script":null)
+ ]
+}
+ui_x={
+"deadzone": 0.5,
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":0,"physical_scancode":88,"unicode":0,"echo":false,"script":null)
+ ]
+}
+ui_c={
+"deadzone": 0.5,
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":0,"physical_scancode":67,"unicode":0,"echo":false,"script":null)
  ]
 }
 

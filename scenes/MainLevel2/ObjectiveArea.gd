@@ -9,8 +9,8 @@ func moveToLevel2():
 	get_tree().change_scene("res://scenes/MainLevel2/MainLevel2.tscn")
 
 
-func _on_ObjectiveArea_body_entered(body: RigidBody2D):
-	if (body.name == "BlueShip"):
+func _on_ObjectiveArea_body_entered(body: KinematicBody2D):
+	if (body.name == "GreenShip"):
 		print("Reached objective!")
 		spawnExplosion()
 		moveToLevel2()
