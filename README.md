@@ -20,7 +20,7 @@
     Perbedaan utama dalam `RigidBody2D` dan `StaticBody2D` adalah pada properti fisiknya. Node `RigidBody2D` memiliki properti seperti massa, bounciness, gesekan, dan lain-lain untuk membantu mengontrol pergerakannya. Oleh karena itu, `RigidBody2D` lebih banyak digunakan untuk objek hidup atau bergerak seperti player, enemies, atau projektil. Sementara `StaticBody2D` lebih banyak digunakan untuk objek statis seperti platform, dinding, atau ceiling.  
 
 1. Ubah nilai atribut `Mass` dan `Weight` pada tipe `RigidBody2D` secara bebas di scene `BlueShip`, lalu coba jalankan scene `MainLevel`. Apa yang terjadi?
-
+    Tidak terdapat perubahan pada interaksi dalam `MainLevel`. Namun, jika ada benda lain dengan psychic juga akan terlihat interaksinya.
 
 1. Ubah nilai atribut `Disabled` pada tipe `CollisionShape2D` di scene `StonePlatform`, lalu coba jalankan scene `MainLevel`. Apa yang terjadi?
     Objek `Blueship` akan langsung jatuh tanpa memperhatikan `StonePlatform`. Hal ini dikarenakan `BlueShip` yang terkait dengan gravitasi akan terus bergerak ke bawah dengan tidak adanya objek yang menghalangi.
